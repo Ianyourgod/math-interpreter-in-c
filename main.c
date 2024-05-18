@@ -230,6 +230,8 @@ int interpret(struct Node* node) {
 int main() {
     // get user input
 
+    printf("Enter an expression: ");
+
     char input[100];
     fgets(input, 100, stdin);
 
